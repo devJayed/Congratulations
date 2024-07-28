@@ -1,0 +1,60 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Common codes  */
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+.flex-center {
+  justify-content: center; /* Align horizontally in center */
+  align-items: center; /* Align vertically in center */
+}
+.tx-center {
+  text-align: center;
+}
+.mx-auto {
+  margin: auto;
+}
+.text-center {
+  text-align: center;
+}
+.gap {
+  gap: 16px;
+}
+.py {
+  margin: 12px 0px;
+}
+.pl {
+  padding-left: 32px;
+}
+/* Main section  */
+.body {
+  background-color: lightgray;
+  min-width: screen;
+}
+.heading {
+  color: red;
+}
+
+.glass {
+  length: 100px;
+  width: 100px;
+}
+
+.shape {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border-radius: 0px 0px 400px 400px;
+}
+.button {
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: black;
+}
